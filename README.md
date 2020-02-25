@@ -8,10 +8,9 @@ mkg's common nix snippets
 { config, lib, pkgs, ... }:
 
 let
-  src = builtins.fetchgit {
-    url = "https://github.com/mkg20001/mkg-nix"
+  src = builtins.fetchGit {
+    url = "https://github.com/mkg20001/mkg-nix";
     rev = "...";
-    sha256 = "...";
   };
 in
 {

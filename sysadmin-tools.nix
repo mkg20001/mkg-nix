@@ -26,4 +26,3 @@ with lib;
     ssh-import-id
   ];
 }
-
