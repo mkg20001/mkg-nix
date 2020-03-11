@@ -19,7 +19,7 @@ with lib;
     # tree/ncdu: file analytics
     tree ncdu
     # glances: netdata for cli, basically
-    python38Packages.glances
+    glances
     # screen: long-running processes
     screen
     # ssh-import-id: ssh key managment
